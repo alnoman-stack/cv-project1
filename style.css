@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.header{
+
+}
+.container{
+    background-color: #E2F7F2;
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 35px;
+}
+.frofile-image{
+    width: 120px;
+    height: 150px;
+    border: 3px solid white;
+    border-radius: 50%;
+    float: left;
+}
+.header-bio{
+    float: left;
+    padding: 40px;
+    
+    
+}
+.contact{
+    float: right;
+    padding: 40px;
+}
+.contact a{
+    text-decoration: none;
+}
+.contact a:hover{
+    color: red;
+}
+.div-clear{
+    clear: both;
+}
+hr{
+    border: 3px solid black;
+    width: 100%;
+    border-bottom: none;
+    margin: 20px auto;
+}
+h1,h2,h3,h4,h5,h6{
+    color: teal;
+}
+
+
+/*--------------
+personal section
+---------------*/
+
+#personal-section{
+
+}
+
+.content{
+    margin: 30px;
+}
+.left-div{
+    width: 30%;
+    float: left;
+
+}
+.right-div{
+    width: 70%;
+    float: right;
+}
+.comon-hr{
+    border: 1px solid black;
+    border-bottom: none;
+    width: 100%;
+    margin: 20px auto;
+}
+.deu-template-left{
+    float: left;
+    width: 50%;
+}
+.deu-template-right{
+    float: left;
+    width: 15%;
+}
+
+/*--------------
+footer start
+---------------*/
+
+.bottom-container{
+    background-color: black;
+    text-align: center;
+    padding: 30px;
+    color: white;
+}
+.bottom-container a{
+    text-decoration: none;
+    color: white;
+    margin: 20px;
+}
+.bottom-container a:hover{
+    color: red;
+}
+.bottom-container p{
+    color: white;
+    margin-top: 20px;
+}
